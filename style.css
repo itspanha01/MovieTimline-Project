@@ -1,29 +1,59 @@
 @font-face {
-    font-family: "SF Pro Display";
-    src: url("MovieFonts/SFPRODISPLAYMEDIUM.OTF");
+  font-family: "SF Pro Display";
+  src: url("MovieFonts/SFPRODISPLAYMEDIUM.OTF");
 }
 
-body{
-    font-family: SF pro Display;
-    color: white;
-    background-color: black;
+body {
+  font-family: SF pro Display;
+  color: white;
+  background-color: black;
 }
 
 button {
-    justify-content: center;
-    font-family: "Geoform";
-    padding: 15px 40px;
-    border: none;
-    outline: none;
-    color: #000000;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
+  justify-content: center;
+  font-family: "Geoform";
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
 }
 
 img {
-    display: block;
-    margin: auto;
+  display: block;
+  margin: auto;
+}
 
+.box1 {
+  background-color: blueviolet;
+  padding: 2px;
+}
+
+.box2 {
+  text-align: center;
+}
+
+.outercontainer {
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.bigboxes {
+  color: #000000;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 8px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: blanchedalmond;
+  display: flex;
 }
