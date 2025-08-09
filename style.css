@@ -45,6 +45,15 @@ img {
   flex-wrap: wrap;
 }
 
+.outercontainer2 {
+  align-content: right;
+  justify-content: right;
+  display: flex;
+  padding: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 .bigboxes {
   color: #000000;
   justify-content: center;
